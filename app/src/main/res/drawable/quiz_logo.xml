@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,10
+            A50,50 0 1,1 59.99,10 Z" />
+
+    <!-- White question mark body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,28
+            C48,28 40,35 40,46
+            C40,50 43,53 47,53
+            C51,53 54,50 54,46
+            C54,43 56,41 60,41
+            C64,41 66,43 66,46
+            C66,50 63,53 60,57
+            C57,61 55,65 55,70
+            L65,70
+            C65,66 67,63 70,59
+            C74,55 76,51 76,46
+            C76,35 68,28 60,28 Z" />
+
+    <!-- White question mark dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M55,78
+            A5,5 0 1,0 65,78
+            A5,5 0 1,0 55,78 Z" />
+
+    <!-- Decorative stars -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M20,20 L22,16 L24,20 L28,20 L25,23 L26,27 L22,25 L18,27 L19,23 L16,20 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M96,20 L98,16 L100,20 L104,20 L101,23 L102,27 L98,25 L94,27 L95,23 L92,20 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M16,90 L17.5,87 L19,90 L22,90 L20,92 L20.5,95 L17.5,93.5 L14.5,95 L15,92 L13,90 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M98,90 L99.5,87 L101,90 L104,90 L102,92 L102.5,95 L99.5,93.5 L96.5,95 L97,92 L95,90 Z" />
+
+</vector>
+
